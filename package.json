@@ -1,8 +1,7 @@
 {
   "name": "web-app-scripts",
   "version": "0.1.0",
-  "description":
-    "Toolkit for building web apps with as least configuration as possible",
+  "description": "Toolkit for building web apps with as least configuration as possible",
   "repository": "https://github.com/dmitmel/web-app-scripts",
   "bugs": "https://github.com/dmitmel/web-app-scripts/issues",
   "homepage": "http://dmitmel.github.io/web-app-scripts",
@@ -19,6 +18,7 @@
     "prettier": "^1.10.2"
   },
   "dependencies": {
+    "find-up": "^2.1.0",
     "js-yaml": "^3.10.0",
     "strip-json-comments": "^2.0.1",
     "yargs": "^11.0.0"
