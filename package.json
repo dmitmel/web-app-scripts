@@ -10,6 +10,7 @@
   "bin": "bin/web-app-scripts",
   "devDependencies": {
     "@types/node": "^9.4.0",
+    "@types/yargs": "^10.0.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
