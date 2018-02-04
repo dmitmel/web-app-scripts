@@ -1,29 +1,34 @@
 {
   "name": "web-app-scripts",
   "version": "0.1.0",
-  "description":
-    "Toolkit for building web apps with as least configuration as possible",
+  "description": "Toolkit for building web apps with as least configuration as possible",
   "repository": "https://github.com/dmitmel/web-app-scripts",
   "bugs": "https://github.com/dmitmel/web-app-scripts/issues",
   "homepage": "http://dmitmel.github.io/web-app-scripts",
   "author": "Dmytro Meleshko <dmytro.meleshko@gmail.com>",
   "license": "MIT",
   "bin": "bin/web-app-scripts",
+  "scripts": {
+    "test": "jest --watch"
+  },
   "devDependencies": {
+    "@types/jest": "^22.1.1",
     "@types/node": "^9.4.0",
     "@types/yargs": "^10.0.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.5.0"
+    "eslint-plugin-prettier": "^2.5.0",
+    "mock-fs": "^4.4.2"
   },
   "dependencies": {
     "find-up": "^2.1.0",
     "fs-extra": "^5.0.0",
+    "jest": "^22.1.4",
     "js-yaml": "^3.10.0",
+    "prettier": "^1.10.2",
     "strip-json-comments": "^2.0.1",
-    "yargs": "^11.0.0",
-    "prettier": "^1.10.2"
+    "yargs": "^11.0.0"
   }
 }
