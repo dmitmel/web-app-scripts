@@ -3,5 +3,5 @@ export type Config = {
   data: { [key: string]: any };
 };
 
-export function loadConfig(): Config;
+export function loadConfig(cwd?: string): Config;
 export function loadConfigFile(filePath: string): Config;
