@@ -7,8 +7,17 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "bin",
       "program": "${workspaceFolder}/bin/web-app-scripts"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "test current file",
+      "program": "${workspaceRoot}/node_modules/jest/bin/jest",
+      "args": ["${file}"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
     }
   ]
 }
