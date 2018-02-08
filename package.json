@@ -19,8 +19,7 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-prettier": "^2.5.0",
-    "mock-fs": "^4.4.2"
+    "eslint-plugin-prettier": "^2.5.0"
   },
   "dependencies": {
     "find-up": "^2.1.0",
@@ -29,6 +28,7 @@
     "js-yaml": "^3.10.0",
     "prettier": "^1.10.2",
     "strip-json-comments": "^2.0.1",
+    "tmp": "^0.0.33",
     "yargs": "^11.0.0"
   }
 }
