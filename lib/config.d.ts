@@ -3,5 +3,4 @@ export type Config = {
   data: { [key: string]: any };
 };
 
-export function loadConfig(cwd?: string): Config;
-export function loadConfigFile(filePath: string): Config;
+export function loadConfig(cwd?: string): Promise<Config | null>;
