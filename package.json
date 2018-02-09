@@ -20,7 +20,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.5.0",
-    "mock-fs": "^4.4.2"
+    "tmp": "^0.0.33"
   },
   "dependencies": {
     "cosmiconfig": "^4.0.0",
