@@ -9,7 +9,7 @@
   "license": "MIT",
   "bin": "bin/web-app-scripts",
   "scripts": {
-    "test": "jest --watch"
+    "test": "node scripts/test.js"
   },
   "devDependencies": {
     "@types/jest": "^22.1.1",
