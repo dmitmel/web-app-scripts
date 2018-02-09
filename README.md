@@ -1,5 +1,7 @@
 # web-app-scripts
 
+[![Travis](https://img.shields.io/travis/dmitmel/web-app-scripts.svg)](https://travis-ci.org/dmitmel/web-app-scripts)
+
 > Toolkit for building web apps with as least configuration as possible
 
 <p align="center">
