@@ -1,6 +1,6 @@
 import * as yargs from 'yargs';
 
-export = class Command {
+declare class Command {
   name: string;
   description: string;
   builder: yargs.CommandBuilder;
@@ -13,8 +13,6 @@ export = class Command {
     builder: yargs.CommandBuilder;
     handler: (args: yargs.Arguments) => void;
   });
+}
 
-  run(args: yargs.Arguments): void;
-
-  register(yargs: yargs.Argv): yargs.Argv;
-};
+export = Command;
