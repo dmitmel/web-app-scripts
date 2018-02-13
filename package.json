@@ -9,7 +9,8 @@
   "license": "MIT",
   "bin": "bin/web-app-scripts",
   "scripts": {
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "docs": "jsdoc2md --name-format -p list lib/**/*.js > docs/api.md"
   },
   "devDependencies": {
     "@types/jest": "^22.1.1",
