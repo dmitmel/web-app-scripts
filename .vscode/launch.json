@@ -8,7 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "bin",
-      "program": "${workspaceFolder}/bin/web-app-scripts"
+      "program": "${workspaceFolder}/bin/web-app-scripts",
+      "args": ["format", "-p", "proj"],
+      "console": "integratedTerminal"
     },
     {
       "type": "node",

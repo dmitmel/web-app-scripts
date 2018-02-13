@@ -1,6 +1,7 @@
 {
   "prettier.eslintIntegration": true,
   "cSpell.words": [
-    "cosmiconfig"
+    "cosmiconfig",
+    "klaw"
   ]
 }
