@@ -1,7 +1,9 @@
+import { Config } from './config';
+
 declare namespace findProject {
   interface Project {
     directory: string;
-    config: any;
+    config: Config;
     resolve(...paths: string[]): string;
   }
 }
