@@ -13,6 +13,9 @@ declare class Command {
     builder: yargs.CommandBuilder;
     handler: (args: yargs.Arguments) => void;
   });
+
+  run(args: yargs.Arguments): any;
+  register(yargs: yargs.Argv): yargs.Argv;
 }
 
 export = Command;

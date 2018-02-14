@@ -24,6 +24,10 @@ This class represents a CLI command.
 <a name="module_cli"></a>
 
 ## cli
+**Example**  
+```js
+const run = require('./cli');
+```
 <a name="exp_module_cli--run"></a>
 
 ### `run(argv)` ⏏
