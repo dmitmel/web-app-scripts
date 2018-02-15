@@ -8,6 +8,8 @@ declare namespace findProject {
   }
 }
 
-declare function findProject(cwd: string): Promise<findProject.Project>;
+declare function findProject(
+  searchDirectory: string
+): Promise<findProject.Project>;
 
 export = findProject;

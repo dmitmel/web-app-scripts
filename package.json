@@ -1,7 +1,8 @@
 {
   "name": "web-app-scripts",
   "version": "0.1.0",
-  "description": "Toolkit for building web apps with as least configuration as possible",
+  "description":
+    "Toolkit for building web apps with as least configuration as possible",
   "repository": "https://github.com/dmitmel/web-app-scripts",
   "bugs": "https://github.com/dmitmel/web-app-scripts/issues",
   "homepage": "http://dmitmel.github.io/web-app-scripts",
@@ -9,8 +10,7 @@
   "license": "MIT",
   "bin": "bin/web-app-scripts",
   "scripts": {
-    "test": "node scripts/test.js",
-    "docs": "jsdoc2md --name-format -p list lib/**/*.js > docs/api.md"
+    "test": "node scripts/test.js"
   },
   "devDependencies": {
     "@types/jest": "^22.1.1",

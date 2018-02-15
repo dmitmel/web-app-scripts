@@ -5,6 +5,8 @@ declare namespace loadConfig {
   }
 }
 
-declare function loadConfig(projectDir: string): Promise<loadConfig.Config>;
+declare function loadConfig(
+  searchDirectory: string
+): Promise<loadConfig.Config>;
 
 export = loadConfig;
