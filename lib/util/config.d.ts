@@ -1,12 +1,12 @@
-declare namespace loadConfig {
+declare namespace config {
   interface Config {
     filePath: string;
     data: any;
   }
+
+  const explorer: any;
+
+  function loadConfig(searchDirectory: string): Promise<Config>;
 }
 
-declare function loadConfig(
-  searchDirectory: string
-): Promise<loadConfig.Config>;
-
-export = loadConfig;
+export = config;

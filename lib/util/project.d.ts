@@ -1,15 +1,13 @@
 import { Config } from './config';
 
-declare namespace findProject {
+declare namespace project {
   interface Project {
     directory: string;
     config: Config;
     resolve(...paths: string[]): string;
   }
+
+  function findProject(searchDirectory: string): Promise<Project>;
 }
 
-declare function findProject(
-  searchDirectory: string
-): Promise<findProject.Project>;
-
-export = findProject;
+export = project;
